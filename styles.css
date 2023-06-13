@@ -1,0 +1,366 @@
+ul, h3 {
+margin: 0;
+padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.contact {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    background: #FF7420;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border-color: #FF7420;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    margin: 44px 0 44px 31px;
+    gap: 10px;
+}
+
+.header{
+    background: #191A19;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+}
+.headerContent div{
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.menu a {
+    margin: 0 22px;
+}
+
+
+
+.mainnews {
+    background-image: url(assets/photo_construction-workers-surveying-site\ 1.svg);
+    background-size: cover;
+}
+
+.mainnewsContent{
+    padding: 155px 0 200px 0;
+    margin: auto;
+    max-width: 1500px;
+}
+
+
+.mainnews h1 {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    color: #FFFFFF;
+}
+.mainnews h1 span{
+    color: #FF7420;
+}
+
+.mainnews p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 25px 0 85px 0;
+}
+
+.bottoms {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 206px;
+
+}
+
+
+.viewproject {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px 30px;
+    gap: 10px;
+
+}
+
+.ourServices {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    background: #FF7420;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border-color: #FF7420;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    margin-right: 24px;
+}
+
+
+.projects{
+    background-color: #FF7420;
+}
+.projects .projectsContent {
+
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: auto;
+}
+.featured{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured ul{
+    display: flex;
+
+}
+.featured ul a{
+    margin-left: 24px;
+}
+
+.projectparagraphs {
+
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: auto;
+
+}
+
+
+.projects ul li {
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.featured p {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    text-align: left;
+    color: #191A19;
+    margin: 50px 0;
+}
+
+.projects ul, li {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 0 70px 0;
+}
+.arrow img{
+    margin-left: 12px;
+}
+
+.projectparagraphs div p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.projectparagraphs div{
+    position: relative;
+}
+.projectparagraphs div div{
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+
+.projectparagraphs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blackspace div {
+    background-color: #191A19;
+    align-items: center;
+}
+
+.blackspace p {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: center;
+
+}
+
+.blackspace span, p {
+    color: #FFFFFF;
+}
+
+.blackspace h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FF7420;
+    text-align: center;
+}
+
+.blackspace h3 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    max-width: 1060px;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.completecontrol {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.footer{
+    background: #191A19;
+}
+.footerContent{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe div {
+    display: flex;
+    align-items: center;
+}
+.subscribe input{
+    margin-left: 20px;
+}
+
+.footerMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.footerMenu div{
+    max-width: 520px;
+}
+
+.footerMenu h5{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 30px 0 15px 0;
+}
+
+.tableLeft{
+    display: inline-block;
+    background: #FF7420;
+    padding: 45px 60px;
+    max-width: 960px;
+    box-sizing: border-box;
+
+}
+
+.tableRight{
+    display: inline-block;
+    background: #FF7420;
+    padding: 45px 60px;
+
+}
+
+.table{
+    background: #191A19;
+}
+
+.tableContent{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1500px;
+
+}
+.table input{
+    padding: 23px 65px;
+}
+
+.table select{
+    padding: 23px 65px;
+}
+
+.form div{
+    display: flex;
+    gap: 18px;
+    justify-content: space-between;
+
+}
+
+
+.form input, .form select{
+    width: 100%;
+    box-sizing: border-box;
+}
+
