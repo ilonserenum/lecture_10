@@ -272,6 +272,23 @@ a {
     color: #FFFFFF;
 }
 
+.blackspace h2 {
+    padding: 52px 0 28px 0;
+}
+
+.blackspace h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 1060px;
+    margin: auto;
+    padding: 14px 0 130px 0;
+    
+}
+
 .completecontrol {
     font-family: Poppins;
     font-size: 20px;
@@ -322,6 +339,7 @@ a {
     padding: 45px 60px;
     max-width: 960px;
     box-sizing: border-box;
+    border-radius: 15px;
 
 }
 
@@ -329,6 +347,8 @@ a {
     display: inline-block;
     background: #FF7420;
     padding: 45px 60px;
+    border-radius: 15px;
+    margin-left: 41px;
 
 }
 
@@ -341,14 +361,21 @@ a {
     justify-content: space-between;
     margin: auto;
     max-width: 1500px;
+    border-radius: 15px;
 
 }
 .table input{
     padding: 23px 65px;
+    border-radius: 15px;
+
 }
+
 
 .table select{
     padding: 23px 65px;
+    border-radius: 15px;
+
+    
 }
 
 .form div{
@@ -356,11 +383,16 @@ a {
     gap: 18px;
     justify-content: space-between;
 
+
 }
 
 
 .form input, .form select{
     width: 100%;
     box-sizing: border-box;
+    border-radius: 15px;
+    border-style: solid;
+    margin: 18px 0 18px 0;
+   
 }
 
